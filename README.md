@@ -7,8 +7,9 @@ Formats vary between CSV (with latitude, longitude to capture geometry) to geojs
 ## Morph.io
 Some of these datasets will require keys from morph.io - just sign up with your github account and programmatically populate the key param in the URL.
 
-IE:
-https://morph.io/CloCkWeRX/road-closures-morton-bay/data.csv?query=select+%2A+from+%27data%27&key=
+```
+https://morph.io/CloCkWeRX/road-closures-morton-bay/data.csv?query=select+%2A+from+%27data%27&key=YOUR_KEY_HERE
+```
 
 ## Contributing your data
 Just open a pull request and add to sources.json

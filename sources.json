@@ -8,9 +8,16 @@
     "schema": "http://standards.opencouncildata.org/#/road-closures"
   }, {
     "name": "QLD Traffic",
+    "wikidata_uri": "https://www.wikidata.org/wiki/Q36074",
     "uri": "https://api.qldtraffic.qld.gov.au/v1/events?apikey=",
     "format": "application/json",
     "description": "See https://qldtraffic.qld.gov.au/more/Developers-and-Data/index.html for obtaining your own key; rate limited to 100 requests/day",
     "schema": "https://qldtraffic.qld.gov.au/media/more/qldtraffic-website-api-specification-V1-1.pdf"
+  }, {
+    "name": "NSW Livetraffic.com",
+    "uri": "https://morph.io/CloCkWeRX/road-closures-nsw/data.csv?query=select+%2A+from+%27data%27&key=",
+    "wikidata_uri": "https://www.wikidata.org/wiki/Q3224",
+    "format": "text/csv",
+    "schema": "http://standards.opencouncildata.org/#/road-closures"
   }]
 }

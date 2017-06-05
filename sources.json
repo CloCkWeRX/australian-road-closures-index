@@ -3,7 +3,14 @@
     "name": "Morton Bay Regional Council",
     "wikidata_uri": "https://www.wikidata.org/wiki/Q1064985",
     "uri": "https://morph.io/CloCkWeRX/road-closures-morton-bay/data.csv?query=select+%2A+from+%27data%27&key=",
+    "description": "A daily transformed text/csv version of morton bay geojson feeds",
     "format": "text/csv",
     "schema": "http://standards.opencouncildata.org/#/road-closures"
+  }, {
+    "name": "QLD Traffic",
+    "uri": "https://api.qldtraffic.qld.gov.au/v1/events?apikey=",
+    "format": "application/json",
+    "description": "See https://qldtraffic.qld.gov.au/more/Developers-and-Data/index.html for obtaining your own key; rate limited to 100 requests/day",
+    "schema": "https://qldtraffic.qld.gov.au/media/more/qldtraffic-website-api-specification-V1-1.pdf"
   }]
 }

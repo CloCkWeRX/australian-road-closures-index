@@ -1,0 +1,9 @@
+{
+  "au": [{
+    "name": "Morton Bay Regional Council",
+    "wikidata_uri": "https://www.wikidata.org/wiki/Q1064985",
+    "uri": "https://morph.io/CloCkWeRX/road-closures-morton-bay/data.csv?query=select+%2A+from+%27data%27&key=",
+    "format": "text/csv",
+    "schema": "http://standards.opencouncildata.org/#/road-closures"
+  }]
+}

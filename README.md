@@ -15,6 +15,7 @@ Just open a pull request and add to sources.json
 
 Country codes are aligned to: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 
+```
   "au": [{
     "name": "Morton Bay Regional Council",
     "wikidata_uri": "https://www.wikidata.org/wiki/Q1064985",
@@ -22,6 +23,7 @@ Country codes are aligned to: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
     "format": "text/csv",
     "schema": "http://standards.opencouncildata.org/#/road-closures"
   }]
+```
 
 Describing a publishing authority should be done with its wikidata identifier where possible; as this allows you to link to a spatial object (via openstreetmap) and a definitive topic (via wikipedia).
 
